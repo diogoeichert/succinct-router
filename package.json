@@ -1,0 +1,31 @@
+{
+	"name": "succinct-router",
+	"version": "1.1.2",
+	"description": "create routes without redundant declarations",
+	"main": "src/index.js",
+	"scripts": {
+		"prepublishOnly": "git checkout main && git pull --rebase && npm test && git push && git push --tags",
+		"test": "eslint --fix ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/diogoeichert/succinct-router.git"
+	},
+	"keywords": [
+		"express",
+		"router",
+		"succinct"
+	],
+	"author": "Diogo Eichert",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/diogoeichert/succinct-router/issues"
+	},
+	"funding": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=succinct-router&currency_code=EUR",
+	"homepage": "https://github.com/diogoeichert/succinct-router#readme",
+	"devDependencies": {
+		"eslint": "^7.19.0",
+		"eslint-config-classic": "^0.1.1",
+		"eslint-config-standard-js": "^1.2.0"
+	}
+}
