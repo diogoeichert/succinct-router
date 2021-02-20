@@ -1,6 +1,6 @@
 {
 	"name": "succinct-router",
-	"version": "1.1.3",
+	"version": "1.1.4",
 	"description": "create routes without redundant declarations",
 	"main": "src/index.js",
 	"scripts": {
@@ -21,7 +21,9 @@
 	"bugs": {
 		"url": "https://github.com/diogoeichert/succinct-router/issues"
 	},
-	"funding": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=succinct-router&currency_code=EUR",
+	"funding": {
+		"url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=succinct-router&currency_code=EUR"
+	},
 	"homepage": "https://github.com/diogoeichert/succinct-router#readme",
 	"devDependencies": {
 		"eslint": "^7.19.0",
